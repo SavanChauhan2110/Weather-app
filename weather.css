@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: auto;
+    height: 80%;
+    width: 40%;
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+.container1{
+    padding:20px 0px;
+    width: 100%;
+    margin:20px 0px 8px 0;
+    /* margin: auto; */
+    text-align: center;
+    border-radius: 20px;
+    background-color: #90e0ef;
+}
+.searchbar{
+   margin: auto;
+   width: 80%;
+   background-color:transparent;
+   box-shadow: inset 0px 0px 61px -15px rgba(0,0,0,0.75);
+   padding: 7px 5px;
+   border-radius: 8px;
+  
+}
+
+input{
+    width: 80%;
+    outline: none;
+    padding: 13px 5px;
+    font-size: 1.3rem;
+    background-color: transparent;
+    border: none;
+    color: #0a0908;
+}
+ ::placeholder{
+    color: #6c757d;
+}
+.hide{
+    display: none;
+}
+
+.searchbar i{
+    cursor: pointer;
+    font-size: 1.7rem;
+    padding: 0px 6px;
+    color: #0a0908;
+}
+
+.container2{
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #90e0ef;
+
+}
+
+.weather-img{
+    padding: 10px 8px;
+}
+
+.weather-img img{
+    width: 120px;
+}
+
+.temp h2{
+    font-size: 4rem;
+}
+
+.city p{
+    font-size: 2rem;
+}
+
+.EH{
+    padding: 30px 0px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.EH p{
+    padding: 10px 0px;
+    font-size: 1.3rem;
+}
+.wind  img{
+    width: 70px;
+    height: 70px;
+}
+.humidity img{
+    width: 70px;
+    height: 70px;
+}
+#error-text{
+    margin-top: 10px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
